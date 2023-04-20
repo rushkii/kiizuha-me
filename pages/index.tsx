@@ -8,7 +8,7 @@ export default function Home(): JSX.Element {
       <div className="w-[70%] flex flex-col justify-center">
         <div className="flex items-center justify-center sm:flex-col 2lg:flex-row">
           <div>
-            <Image src={profileImage} alt="Profile Image" className="sm:mb-5 sm:w-[10rem] sm:h-[10rem] 2lg:mb-0 2lg:w-[12rem] 2lg:h-[12rem] xl:mb-0 xl:w-[13rem] xl:h-[13rem] rounded-full border-4 bg-sky-200 border-sky-600"/>
+            <Image src={profileImage} alt="Profile Image" className="sm:mb-5 sm:w-[10rem] sm:h-[10rem] 2lg:mb-0 2lg:w-[12rem] 2lg:h-[12rem] xl:mb-0 xl:w-[13rem] xl:h-[13rem] rounded-full border-4 bg-blue-200 border-blue-500"/>
           </div>
           <div className="flex flex-col sm:items-center sm:justify-center 2lg:items-start 2lg:justify-start sm:ml-0 2lg:ml-10 xl:ml-10">
             <div className="font-semibold text-xl">Hello</div>
