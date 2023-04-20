@@ -9,6 +9,14 @@ module.exports = {
     fontFamily: {
       rubik: ["var(--rubik-font)"]
     },
+    screens: {
+      "sm": "320px",
+      "md": "640px",
+      "lg": "768px",
+      "2lg": "1024px",
+      "xl": "1280px",
+      "2xl": "1536px"
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
