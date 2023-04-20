@@ -6,7 +6,7 @@ import Headers from '@/components/Header';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div>
+    <>
       <style jsx global>{`
         :root {
           --rubik-font: ${fontRubik.style.fontFamily};
@@ -14,6 +14,6 @@ export default function App({ Component, pageProps }: AppProps) {
       `}</style>
       <Headers/>
       <Component {...pageProps} />
-    </div>
+    </>
   );
 }
