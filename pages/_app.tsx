@@ -2,6 +2,7 @@ import '@/styles/globals.css'
 import { fontRubik } from '@/data/fonts'
 import type { AppProps } from 'next/app'
 import Headers from '@/components/Header';
+import Footer from '@/components/Footer';
 
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -14,6 +15,7 @@ export default function App({ Component, pageProps }: AppProps) {
       `}</style>
       <Headers/>
       <Component {...pageProps} />
+      <Footer/>
     </>
   );
 }
