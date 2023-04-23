@@ -8,3 +8,7 @@
 .card:hover .seeProject {
   opacity: 100;
 }
+
+.textNeon {
+  text-shadow: 0px 0px 5px rgb(151, 159, 169);
+}
