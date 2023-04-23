@@ -14,13 +14,13 @@ const Headers = () => {
           kiizuha.dev
         </Link>
 
-        <ul className="flex border-blue-600">
+        <ul className="flex space-x-5 border-blue-600">
           <li className="h-auto">
             <Link
               href="/projects"
               title="Projects"
               className={`h-12 flex items-center transition-all duration-200 hover:border-black
-                        hover:dark:border-white border-b-2 border-transparent font-bold text-lg
+                        hover:dark:border-white border-b-2 border-transparent text-lg font-medium
               ${currentPath === "/projects" ? "border-black dark:border-white" : ""}`}
             >
               <div className={currentPath === "/projects" ? styles.textNeon : ""}>Projects</div>
