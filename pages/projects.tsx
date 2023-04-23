@@ -28,7 +28,7 @@ const Projects = () => {
                     </a>
                     <div className="flex flex-col p-3 space-y-2">
                       <div className="font-medium text-xl uppercase overflow-hidden truncate">{key.name}</div>
-                      <div className="line-clamp-3 text-slate-700 dark:text-slate-300 h-[4.5rem]">{key.description} lorem</div>
+                      <div className="line-clamp-3 text-slate-700 dark:text-slate-300 h-[4.5rem]">{key.description}</div>
                       <a href={key.repoLink} className="flex justify-center items-center p-2 bg-blue-500 hover:bg-blue-400 rounded-lg text-white">
                         <BsGithub size={15}/>
                         <div className="ml-2">View source code</div>
