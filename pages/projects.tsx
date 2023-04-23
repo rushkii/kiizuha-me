@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 items-start">
         {projects.map((key, _) => {
           return (
-            <div className={`mx-auto flex max-w-screen-sm justify-center ${styles.card}`}>
+            <div key={key.name} className={`mx-auto flex max-w-screen-sm justify-center ${styles.card}`}>
               <div className="h-full w-full p-[3px] rounded-2xl bg-gradient-to-r from-blue-600 to-purple-400 dark:from-blue-700 dark:to-purple-700 from-25% to-75% shadow-md shadow-gray-400 hover:shadow-gray-400 dark:shadow-black dark:hover:shadow-black hover:scale-105 transition">
                 <div className="flex h-full w-full items-center justify-center rounded-2xl bg-[#f1f1f1] dark:bg-[#131517]">
                   <div>
