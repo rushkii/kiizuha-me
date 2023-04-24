@@ -22,7 +22,7 @@ const NavigationBottom = () => {
                 className="grid place-items-center text-[20px] lg:text-[30px] sm:text-[25px] text-black dark:text-white"
               />
             }
-            <div className={`text-xs line-clamp-1 ${currentPath === "/" ? styles.textNeon + " font-bold" : ""}`}>Profile</div>
+            <div className={`text-xs line-clamp-1 ${currentPath === "/" ? styles.textNeon + " font-medium" : ""}`}>Profile</div>
           </div>
         </Link>
         <Link href="/projects">
@@ -35,7 +35,7 @@ const NavigationBottom = () => {
                 className="grid place-items-center text-[20px] lg:text-[30px] sm:text-[25px] text-black dark:text-white"
               />
             }
-            <div className={`text-xs line-clamp-1 ${currentPath === "/projects" ? styles.textNeon + " font-bold" : ""}`}>Projects</div>
+            <div className={`text-xs line-clamp-1 ${currentPath === "/projects" ? styles.textNeon + " font-medium" : ""}`}>Projects</div>
           </div>
         </Link >
       </div>
