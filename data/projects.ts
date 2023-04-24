@@ -21,7 +21,7 @@ export default [
     name: "kiizuha.dev",
     description: "My personal website",
     imageSrc: [kiizuhaMeDark.src, kiizuhaMeLight.src],
-    demoLink: "https://kiizuha-dev.vercel.app",
+    demoLink: "https://kiizuha-me.vercel.app",
     repoLink: "https://github.com/rushkii/kiizuha-me"
   },
   {
