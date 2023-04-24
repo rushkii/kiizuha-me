@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="uppercase relative leading-relaxed sm:before:w-[5.1rem] xl:before:w-[6.4rem] inline-block sm:text-xl xl:text-2xl font-semibold mb-8 before:content-[''] before:absolute before:-bottom-2 before:h-1 before:left-3 before:rounded-md before:bg-blue-500 dark:before:bg-blue-600">
         Projects
       </div>
-      <div className="mb-14 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 items-start">
+      <div className={`mb-14 ${projects.length >= 3 ? "grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4" : "flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4"} items-center justify-center bg-green-300`}>
         {projects.map((key, _) => {
           return (
             <div key={key.name} className={`mx-auto flex max-w-screen-sm justify-center ${styles.card}`}>
