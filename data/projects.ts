@@ -2,6 +2,9 @@ import abyssCardDark from "@/assets/img/abyss-card-front-dark.png";
 import abyssCardLight from "@/assets/img/abyss-card-front-light.png";
 import kiizuhaMeDark from "@/assets/img/kiizuha-me-front-dark.png";
 import kiizuhaMeLight from "@/assets/img/kiizuha-me-front-light.png";
+import loreDaemon1 from "@/assets/img/lore-daemon-1.png";
+import loreDaemon2 from "@/assets/img/lore-daemon-2.png";
+import loreDaemon3 from "@/assets/img/lore-daemon-3.png";
 
 
 type ProjectsType = {
@@ -27,5 +30,13 @@ export default [
     imageSrc: [abyssCardDark.src, abyssCardLight.src],
     demoLink: "https://abyss-card.vercel.app",
     repoLink: "https://github.com/rushkii/abyss-card"
-  }
+  },
+  {
+    name: "lore-daemon",
+    description: "A collaboration Telegram & Discord project with Ammar Faizi, this project is to make an email notifier to receive new emails from the https://lore.kernel.org mailing list.",
+    imageSrc: [loreDaemon1.src, loreDaemon2.src, loreDaemon3.src],
+    demoLink: "https://t.me/s/GNUWeeb/687248",
+    repoLink: "https://github.com/ammarfaizi2/lore-daemon"
+  },
+
 ] as ProjectsType[];
