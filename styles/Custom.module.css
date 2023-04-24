@@ -10,5 +10,11 @@
 }
 
 .textNeon {
-  text-shadow: 0px 0px 5px rgb(151, 159, 169);
+  text-shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .textNeon {
+    text-shadow: 0px 0px 3px rgb(151, 159, 169);
+  }
 }
