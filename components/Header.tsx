@@ -17,6 +17,18 @@ const Headers = () => {
         <ul className="2lg:flex space-x-5 border-blue-600 hidden">
           <li className="h-auto">
             <Link
+              href="/"
+              title="Profile"
+              className={`h-12 flex items-center transition-all duration-200 hover:border-black
+                        hover:dark:border-white border-b-2 border-transparent text-lg font-medium
+              ${currentPath === "/" ? "border-black dark:border-white" : ""}`}
+            >
+              <div className={currentPath === "/" ? styles.textNeon : ""}>Profile</div>
+              <div className="absolute w-full h-[1px] border-b-6 bottom-0 border-gray-900"></div>
+            </Link>
+          </li>
+          <li className="h-auto">
+            <Link
               href="/projects"
               title="Projects"
               className={`h-12 flex items-center transition-all duration-200 hover:border-black
