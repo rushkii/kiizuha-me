@@ -7,7 +7,7 @@ import NavigationBottom from "@/components/NavigationBottom";
 
 const Projects = () => {
   return (
-    <main className="relative flex flex-col justify-center items-center min-h-screen mt-14 lg:mt-0 font-rubik">
+    <main className="relative flex flex-col items-center min-h-screen mt-14 font-rubik">
       <div className="uppercase relative leading-relaxed sm:before:w-[5.1rem] xl:before:w-[6.4rem] inline-block sm:text-xl xl:text-2xl font-semibold mb-8 before:content-[''] before:absolute before:-bottom-2 before:h-1 before:left-3 before:rounded-md before:bg-blue-500 dark:before:bg-blue-600">
         Projects
       </div>

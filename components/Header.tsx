@@ -14,7 +14,7 @@ const Headers = () => {
           kiizuha.dev
         </Link>
 
-        <ul className="2lg:flex space-x-5 border-blue-600 hidden">
+        <ul className="lg:flex space-x-5 border-blue-600 hidden">
           <li className="h-auto">
             <Link
               href="/"
