@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import profileImage from "@/assets/img/catboy.png";
+import NavigationBottom from '@/components/NavigationBottom';
 
 
 export default function Home(): JSX.Element {
   return (
-    <main className="flex flex-col items-center min-h-screen py-14 font-rubik">
-      <div className="w-[70%] flex flex-col justify-center">
+    <main className="relative flex flex-col items-center min-h-screen font-rubik">
+      <div className="w-[70%] flex flex-col justify-center py-14">
         <div className="flex items-center justify-center sm:flex-col 2lg:flex-row">
           <div>
             <Image src={profileImage} alt="Profile Image" className="sm:mb-5 sm:w-[10rem] sm:h-[10rem] 2lg:mb-0 2lg:w-[12rem] 2lg:h-[12rem] xl:mb-0 xl:w-[13rem] xl:h-[13rem] rounded-full border-4 bg-blue-200 border-blue-500"/>
@@ -32,6 +33,7 @@ export default function Home(): JSX.Element {
           </div>
         </div>
       </div>
+      <NavigationBottom/>
     </main>
   )
 }

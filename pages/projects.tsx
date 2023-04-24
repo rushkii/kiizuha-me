@@ -2,15 +2,16 @@ import { BsEyeFill, BsGithub } from "react-icons/bs"
 import styles from "@/styles/Custom.module.css";
 import CardImage from "@/components/CardImage";
 import projects from "@/data/projects";
+import NavigationBottom from "@/components/NavigationBottom";
 
 
 const Projects = () => {
   return (
-    <main className="flex flex-col justify-center items-center min-h-screen py-14 font-rubik">
+    <main className="relative flex flex-col justify-center items-center min-h-screen font-rubik">
       <div className="uppercase relative leading-relaxed sm:before:w-[5.1rem] xl:before:w-[6.4rem] inline-block sm:text-xl xl:text-2xl font-semibold mb-8 before:content-[''] before:absolute before:-bottom-2 before:h-1 before:left-3 before:rounded-md before:bg-blue-500 dark:before:bg-blue-600">
         Projects
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 items-start">
+      <div className="py-14 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 items-start">
         {projects.map((key, _) => {
           return (
             <div key={key.name} className={`mx-auto flex max-w-screen-sm justify-center ${styles.card}`}>
@@ -43,6 +44,7 @@ const Projects = () => {
           )
         })}
       </div>
+      <NavigationBottom/>
     </main>
   );
 }
